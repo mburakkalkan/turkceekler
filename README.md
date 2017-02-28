@@ -1,6 +1,7 @@
 # Türkçe Ekler .NET
 
 Bu sınıf Türkçe bir kelimeyi istenilen bir hale, zamana, kipe ve kişiye göre çekimler.
+
 Ses uyumları, yumuşama, benzeşme, ünlü türemesi, ünlü düşmesi gibi ses olaylarını dikkate alır.
 
 [turkcehaller] (https://code.google.com/archive/p/turkcehaller) sınıfı taban alınarak geliştirilmiştir.
