@@ -6,7 +6,7 @@ Ses uyumları, yumuşama, benzeşme, ünlü türemesi, ünlü düşmesi gibi ses
 
 [turkcehaller] (https://code.google.com/archive/p/turkcehaller) sınıfı taban alınarak geliştirilmiştir.
 
-##Basit İsim Çekimlemeleri
+## Basit İsim Çekimlemeleri
 ```C#
 string a = TurkceEkler.Uygula("kapı", TurkceEkler.IsminHali.Bulunma); // kapıda
 string b = TurkceEkler.Uygula("kitap", TurkceEkler.IsminHali.Yonelme); // kitaba
@@ -14,7 +14,7 @@ string c = TurkceEkler.Uygula("kalem", TurkceEkler.IsminHali.Ayrilma); // kalemd
 string d = TurkceEkler.Uygula("köpek", TurkceEkler.IsminHali.Tamlama); // köpeğin
 ```
 
-##Basit Fiil Çekimlemeleri
+## Basit Fiil Çekimlemeleri
 ```C#
 string a = TurkceEkler.Uygula("yap", TurkceEkler.FiilKipi.GecmisZaman, TurkceEkler.Kisiler.BirinciTekil); // yaptım
 string b = TurkceEkler.Uygula("gel", TurkceEkler.FiilKipi.GecmisZaman, TurkceEkler.Kisiler.UcuncuCogul); // geldik
@@ -27,7 +27,7 @@ string h = TurkceEkler.Uygula("ol", TurkceEkler.FiilKipi.SimdikiZaman, TurkceEkl
 string i = TurkceEkler.Uygula("kaç", TurkceEkler.FiilKipi.Emir, TurkceEkler.Kisiler.IkinciTekil); // kaçsın
 ```
 
-##Birleşik Zaman Çekimlemeleri
+## Birleşik Zaman Çekimlemeleri
 
 ```C#
 string a = TurkceEkler.Uygula("yap", TurkceEkler.FiilKipi.MisliGecmisZaman, TurkceEkler.FiilKipi.GecmisZaman, TurkceEkler.Kisiler.BirinciTekil); // yapmıştım
