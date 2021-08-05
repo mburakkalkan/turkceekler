@@ -34,3 +34,5 @@ string a = TurkceEkler.Uygula("yap", TurkceEkler.FiilKipi.MisliGecmisZaman, Turk
 string b = TurkceEkler.Uygula("gel", TurkceEkler.FiilKipi.SimdikiZaman, TurkceEkler.FiilKipi.MisliGecmisZaman, TurkceEkler.Kisiler.UcuncuCogul); // geliyormuşuz
 string c = TurkceEkler.Uygula("git", TurkceEkler.FiilKipi.GelecekZaman, TurkceEkler.FiilKipi.GecmisZaman, TurkceEkler.Kisiler.BirinciTekil); // gidecektim
 ```
+
+
