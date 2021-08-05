@@ -35,3 +35,4 @@ string b = TurkceEkler.Uygula("gel", TurkceEkler.FiilKipi.SimdikiZaman, TurkceEk
 string c = TurkceEkler.Uygula("git", TurkceEkler.FiilKipi.GelecekZaman, TurkceEkler.FiilKipi.GecmisZaman, TurkceEkler.Kisiler.BirinciTekil); // gidecektim
 ```
 
+
